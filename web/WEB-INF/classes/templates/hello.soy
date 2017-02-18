@@ -1,0 +1,14 @@
+{namespace examples.simple}
+/**
+ * Says hello to the world.
+ * @param values
+ */
+{template .helloWorld}
+  Hello world!
+  <br>
+  <ul>
+  {foreach $item in $values}
+        <li>{$item}</li>
+  {/foreach}
+  </ul>
+{/template}
