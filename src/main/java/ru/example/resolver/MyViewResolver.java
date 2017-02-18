@@ -1,4 +1,4 @@
-package ru.example.controller;
+package ru.example.resolver;
 
 import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.view.AbstractCachingViewResolver;

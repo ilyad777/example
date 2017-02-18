@@ -12,7 +12,7 @@ public class MyController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(Model model){
-        model.addAttribute("values", Lists.newArrayList("hello", "world", "from", "spring", "controller!") );
+        model.addAttribute("values", Lists.newArrayList("hello", "world", "from", "spring", "controller!"));
         return "index";
     }
 }
